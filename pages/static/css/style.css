@@ -1,0 +1,150 @@
+body {
+	background-color: #ffffff;
+	font-family: 'Gill Sans', sans-serif;
+}
+
+h1 {
+	font-size: 16px;
+	text-align: center;
+	color: black;
+}
+
+h4 {
+	font-size: 20px;
+	color: #A52A2A;
+}
+
+p {
+	font-size: 15px;
+	color: black;
+}
+
+#container {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	color: black;
+	margin-top: 15px;
+	font-size: 44px;
+	letter-spacing: 20px;
+	text-align: center;
+}
+
+#banner {
+    width: 100%;
+    display: block;
+}
+
+#banner > #banner-image{
+	width: 100%;
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+	background-color: #a52a2a;
+	margin-top: 20px;
+	color: #dcdcdc;
+	padding: 10px;
+}
+
+#topbar {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px;
+	margin-top: 10px;
+	height: 40px;
+}
+
+#topbarL {
+	float: right;
+	padding: 20px;
+	width: 100px;
+	text-align: right;
+}
+
+#topbarR {
+	float: right;
+	padding: 20px;
+	width: 760px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+#sidebar {
+	float: right;
+	width: 148px;
+	padding: 20px;
+	background-color: lightgray;
+	text-align: left;
+	font-size: 15px;
+	color: black;
+}
+
+#content {
+	float: left;
+	padding: 0px;
+	width: 730px;
+	background-color: #ffffff;
+	min-height: 580px;
+	text-align: justify;
+}
+
+#footer {
+	clear: both;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	font-size: 17px;
+}
+
+.option {
+	float: right;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px solid #444444;
+	opacity: 0.8;
+}
+
+.bigtitle {
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+}
+
+table, td, th {    
+    border: 1px solid #ddd;
+    color: black;
+    padding: 15px;
+    border-collapse: collapse;
+    width: 500px; 
+    margin: 0 auto;
+}
+
+
+
+
+
